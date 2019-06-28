@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9438dcb-4f90-4a14-b45c-3fd04415de86">
+  <name>КодОбластиЗначение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код области значение</value>
+  </synonym>
+  <comment>КодОбласти Значение</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

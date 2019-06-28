@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efc360d0-8ec2-4a84-94ca-c0c457a7841f">
+  <name>КодОбластиИспользование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код области использование</value>
+  </synonym>
+  <comment>КодОбласти Использование</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

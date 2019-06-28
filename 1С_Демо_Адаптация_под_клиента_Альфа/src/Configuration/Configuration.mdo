@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa49df6e-c0d7-487f-8fe0-f2c932a34ea2">
+  <name>Demo_alpha</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С Демо (Альфа)</value>
+  </synonym>
+  <comment>Базовая адаптация основного функционала прикладного решения</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7b1827f8-956f-4d59-8eda-03d72ce9d9d9"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d67a529d-76af-43d1-8b55-bab6ff5a6237"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="451650c1-fb85-4e6c-84d0-570c2f99dd50"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a6be308e-0491-46cc-92f2-f1fc4a0e9c1b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="51c1feea-63b5-41a9-a6b0-8d271277d841"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e338e470-a74c-47bd-b9d6-d4f8e219325b"/>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Внедренец</vendor>
+  <version>1.1.1.1.2</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="4f6de8ee-b7b2-4241-ac31-ac58c63a389f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ТорговыйУчет</subsystems>
+  <sessionParameters>SessionParameter.КодОбластиЗначение</sessionParameters>
+  <sessionParameters>SessionParameter.КодОбластиИспользование</sessionParameters>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.РаботаСДанными</roles>
+  <commonAttributes>CommonAttribute.КодОбласти</commonAttributes>
+  <commonForms>CommonForm.ПрофильПользователя</commonForms>
+  <catalogs>Catalog.Номенклатура</catalogs>
+</mdclass:Configuration>
