@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c0cc06f4-4470-4ce0-90dc-6d3d551e6fe5">
+  <producedTypes>
+    <objectType typeId="536f57fe-4f3d-4de0-a2fb-054a1aaf3268" valueTypeId="ae201839-3c50-4399-9034-c3ee33e77a6c"/>
+    <refType typeId="c563f2be-7207-4dee-8412-773ca2f13852" valueTypeId="98b5c435-67ef-445d-a37d-370e4ce8f218"/>
+    <selectionType typeId="cb30cb44-5613-4977-9e94-b9f84e21df6d" valueTypeId="179190bc-c2f6-4307-800e-fa8da6ce7822"/>
+    <listType typeId="b6da3f80-b6d4-408a-86d9-b47002d92986" valueTypeId="601e469a-f87c-4ea0-8244-2283b3df686d"/>
+    <managerType typeId="1973f846-6e76-432f-ac88-7d5a8815d2a0" valueTypeId="ef755b91-99f5-4310-87f6-351fe3e18447"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d3019eb2-b539-4ad3-a12a-8f526e8f8f13">
+    <name>ЭтоТовар</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="41db9711-788d-4ed1-8903-65753669c507">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="4d0d78e9-c71f-4433-83dd-6d616799185d">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>
