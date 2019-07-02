@@ -170,6 +170,11 @@
       </paths>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <handlers xsi:type="form:EventHandlerExtension">
+      <event>OnChange</event>
+      <name>АФ_ЭтоТоварПриИзмененииПосле</name>
+      <callType>After</callType>
+    </handlers>
     <extendedTooltip>
       <name>ЭтоТоварРасширеннаяПодсказка</name>
       <id>12</id>
